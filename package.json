@@ -1,0 +1,24 @@
+{
+  "name": "simple-rest-api-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "Simple rest API for beginners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc",
+    "dev:start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backend-for-beginners/simple-rest-api-nodejs-typescript.git"
+  },
+  "author": "backendforbeginners@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backend-for-beginners/simple-rest-api-nodejs-typescript/issues"
+  },
+  "homepage": "https://github.com/backend-for-beginners/simple-rest-api-nodejs-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

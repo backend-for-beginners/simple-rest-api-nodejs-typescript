@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "lib": [
+            "es2017",
+            "DOM"
+        ],
+        "allowJs": true,
+        "sourceMap": true,
+        "removeComments": true,
+        "skipLibCheck": true,
+        "outDir": "./build/"
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+  }
